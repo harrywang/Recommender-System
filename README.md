@@ -1,3 +1,7 @@
+# About
+
+The original repo is from: https://github.com/SSSxCCC/Recommender-System
+
 # Recommender-System
 
 A developing recommender system, implements in tensorflow 2.
@@ -10,12 +14,24 @@ Evaluation: ctr's auc f1 and topk's precision recall.
 
 ## Requirements
 
-* Python 3.7
-* Tensorflow 2.1.0
+* Python 3.7+
+* Tensorflow 2.x
 
-## Run
+## Setup 
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Data
 
 [Download data files](https://github.com/SSSxCCC/Recommender-System/tree/datafile) and put 'ds' and 'kg' under 'Recommender_System/data' folder.
+
+'ds' and 'kg' folders have been git ignored.
+
+## Run
 
 Open parent directory of current file as project in PyCharm, set up Python 3.7 interpreter and pip install tensorflow==2.1.0.
 
